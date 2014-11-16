@@ -25,7 +25,7 @@ git_bundles = [
   "git://github.com/tsaleh/vim-tmux.git",
   "git://github.com/vim-ruby/vim-ruby.git",
   "git://github.com/vim-scripts/Gist.vim.git",
-  "git://github.com:kchmck/vim-coffee-script.git",
+  "git://github.com/kchmck/vim-coffee-script.git",
   "git://github.com/elzr/vim-json.git",
 ]
 
