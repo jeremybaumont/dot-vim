@@ -29,6 +29,7 @@ git_bundles = [
   "git://github.com/fatih/vim-go.git",
   "git://github.com/majutsushi/tagbar",
   "git://github.com/vadv/vim-chef",
+  "git://github.com/bling/vim-airline",
 ]
 
 vim_org_scripts = [
