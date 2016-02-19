@@ -32,7 +32,7 @@ git_bundles = [
   "git://github.com/bling/vim-airline",
   "git://github.com/rodjek/vim-puppet",
   "git://github.com/derekwyatt/vim-scala.git",
-  "git://github.com/tfnico/vim-gradle.git"
+  "git://github.com/tfnico/vim-gradle.git",
   "git://github.com/edkolev/tmuxline.vim.git"
 ]
 
