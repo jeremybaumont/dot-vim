@@ -33,6 +33,7 @@ git_bundles = [
   "git://github.com/rodjek/vim-puppet",
   "git://github.com/derekwyatt/vim-scala.git",
   "git://github.com/tfnico/vim-gradle.git"
+  "git://github.com/edkolev/tmuxline.vim.git"
 ]
 
 vim_org_scripts = [
