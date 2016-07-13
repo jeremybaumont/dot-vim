@@ -37,8 +37,8 @@ git_bundles = [
 ]
 
 vim_org_scripts = [
-  ["IndexedSearch", "7062",  "plugin"],
-  ["jquery",        "12107", "syntax"],
+  ["IndexedSearch", "plugin"],
+  ["jquery", "syntax"],
 ]
 
 require 'fileutils'
@@ -58,11 +58,13 @@ git_bundles.each do |url|
   FileUtils.rm_rf(File.join(dir, ".git"))
 end
 
-vim_org_scripts.each do |name, script_id, script_type|
-  puts "downloading #{name}"
-  local_file = File.join(name, script_type, "#{name}.vim")
+
+vim_org_scripts.each do |script_name, script_type|
+  puts "downloading #{script_name} at url https://api.github.com/repos/vim-scripts/#{script_name}/#{script_type}/#{script_name}.vim"
+  local_file = File.join(script_name, script_type, "#{script_name}.vim")
   FileUtils.mkdir_p(File.dirname(local_file))
   File.open(local_file, "w") do |file|
-    file << open("http://www.vim.org/scripts/download_script.php?src_id=#{script_id}").read
+    file << open("https://raw.githubusercontent.com/vim-scripts/#{script_name}/master/#{script_type}/#{script_name}.vim"
+                ).read
   end
 end
