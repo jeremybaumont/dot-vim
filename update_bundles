@@ -33,7 +33,9 @@ git_bundles = [
   "git://github.com/rodjek/vim-puppet",
   "git://github.com/derekwyatt/vim-scala.git",
   "git://github.com/tfnico/vim-gradle.git",
-  "git://github.com/ElmCast/elm-vim.git"
+  "git://github.com/ElmCast/elm-vim.git",
+  "git://github.com:pearofducks/ansible-vim.git",
+  "git://github.com:Glench/Vim-Jinja2-Syntax.git"
 ]
 
 vim_org_scripts = [
