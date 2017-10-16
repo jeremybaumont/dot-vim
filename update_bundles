@@ -35,6 +35,8 @@ git_bundles = [
   "git://github.com/tfnico/vim-gradle.git",
   "git://github.com/ElmCast/elm-vim.git",
   "git://github.com:pearofducks/ansible-vim.git",
+  "git://github.com/hashivim/vim-terraform.git",
+  "git://github.com/python-mode/python-mode.git",
   "git://github.com:Glench/Vim-Jinja2-Syntax.git"
 ]
 
